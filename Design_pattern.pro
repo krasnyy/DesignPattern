@@ -17,7 +17,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     Abstract_Factory.cpp \
     Builder.cpp \
-    Factory.cpp
+    Factory.cpp \
+    Prototype.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
