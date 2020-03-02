@@ -4,7 +4,6 @@
 #include <memory>
 using namespace std;
 
-
 class Record
 {
 public:
@@ -24,7 +23,7 @@ public:
     void print() override
      {
           cout << "Bike Record" << endl
-             << "Name  : " << m_bikeName << endl
+
              << "Number: " << m_ID << endl << endl;
       }
 
@@ -58,12 +57,9 @@ public:
     }
 };
 
-
-
 enum RecordType
 {
     CAR,
-    BIKE,
     PERSON
 };
 

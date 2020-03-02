@@ -18,7 +18,8 @@ SOURCES += \
     Abstract_Factory.cpp \
     Builder.cpp \
     Factory.cpp \
-    Prototype.cpp
+    Prototype.cpp \
+    Singleton.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
